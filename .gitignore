@@ -1,0 +1,14 @@
+# History file the script creates when it runs (each person's is different)
+history.txt
+
+# macOS system files
+.DS_Store
+
+# Editor and temporary files
+.vscode/
+*.swp
+*~
+*.tmp
+
+# Logs
+*.log
