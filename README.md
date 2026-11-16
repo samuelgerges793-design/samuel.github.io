@@ -1,4 +1,5 @@
 # samuel.github.io
+
 CPAN-133-0ND Project
 
 Project: Unit Converter
@@ -16,3 +17,5 @@ Features:
 3. **Two-Way Conversion** – Each unit pair can be converted in both directions, such as kilometers to miles and miles to kilometers. This gives users more flexibility without needing a separate tool for each direction. The reverse conversion uses the same conversion factor, dividing instead of multiplying. This approach keeps the code short while doubling the number of available conversions.
 
 4. **Decimal Precision** – Users can choose how many decimal places they want their results to show, from 0 to 4. This keeps the output clean and easy to read instead of showing long decimal numbers. The script uses the `bc` command to handle the math and `printf` to round the final result. This is especially useful when exact values matter or when a quick estimate is enough.
+
+5. **Categorical Convertions** - When users input the value and unit, it will automatically be categorized as a unit type such as computing size, volume, area, currency, distance, or time. This will help the user select the correct unit type to convert to and ensure the unit types don't cross over.
